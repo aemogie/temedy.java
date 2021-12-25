@@ -24,5 +24,5 @@ The value of reference data types defaults to `null`, however. In the case of pr
 
 Now we will discuss some of the reference types.
 
-- `String`, which is a class that is **immutable**, is essentially a type for a sequence of characters with a few useful methods. The string can be of any length that must be within the maximum value of an `int` data type\
+- `String`, which is a class that is **immutable**, is essentially a type for a sequence of characters with a few useful methods. The string can be of any length that must be within the maximum value of an `int` data type
 - `Array`, arrays in java are objects that can be created of any type, regardless if it's a primitive or a reference type. An array is a linear data structure that holds elements. It can have a length that must be within the max value of the data type `int`. If a value below `0` is specified, a `NegativeArraySizeException` is thrown. We will also cover exceptions and all of the other things in the next tutorials. 
