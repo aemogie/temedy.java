@@ -2,9 +2,9 @@
 A variable is a named container that can contain a single value (or a reference) of it's type.
 
 Variables consist of:
-1) Type
-2) Name
-3) Value
+1. Type
+2. Name
+3. Value
 
 The following is an example of the most basic variable:
 ```java
@@ -34,10 +34,10 @@ String foo, foo1, foo2;
 Remember that the term value is only used when working with primitive types, but when we are working with reference types, we usually store a reference to a particular object. 
 
 There are four types of variables.
-1) Instance variable (also known as field)
-2) Class variable (also known as static field)
-3) Local variable
-4) Parameter
+1. Instance variable (also known as field)
+2. Class variable (also known as static field)
+3. Local variable
+4. Parameter
 
 Instance variables (fields) are variables that belong to an instance of a particular class. For example, behold a class `Car`.
 ```java

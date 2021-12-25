@@ -1,8 +1,8 @@
 # DATA TYPES
 In the java language, there are two kinds of data types:
 
-1) Primitive data types
-2) Reference data types
+1. Primitive data types
+2. Reference data types
 
 **Primitive data types include:**
 - `byte`, can store values of `-128` to `127`  (1 byte)
