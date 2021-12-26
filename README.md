@@ -1,10 +1,10 @@
 Some basic and also advanced java tutorials, we will cover things such as:
 
-1. [Data types](DataTypes.md)
-2. [Expressions, statements, blocks](Expressions.md)
-3. [Operators](Operators.md)
-4. [Variables](Variables.md)
-5. Control flow
+1. [Data types](01_DataTypes.md)
+2. [Expressions, statements, blocks](02_Expressions.md)
+3. [Operators](03_Operators.md)
+4. [Variables](04_Variables.md)
+5. [Control flow](05_ControlFlow.md)
 6. Classes and members
 7. Naming conventions
 8. Access modifiers

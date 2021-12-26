@@ -1,4 +1,4 @@
-**VARIABLES**\
+# Variables
 A variable is a named container that can contain a single value (or a reference) of it's type.
 
 Variables consist of:

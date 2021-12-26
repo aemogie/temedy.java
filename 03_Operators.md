@@ -1,7 +1,7 @@
-# OPERATORS
+# Operators
 There are many operators, but we will begin with the simpliest one: the assignment operator.
 
-## ASSIGNMENT OPERATOR
+## Assignment Operator
 To assign our variable foo from the previous section a value, we have two ways of doing that.
 
 The first style is:
@@ -23,7 +23,7 @@ And if we are working with reference types, we are assigning those variables a `
 
 We will explain the differences between those two, and on how java handles them.
 
-## ARITHMETIC OPERATORS
+## Arithmetic Operators
 These are five arithmetic operators available.
 - `+`,  addition
 - `-`,  subtraction
@@ -52,7 +52,7 @@ Although it doesn't make much sense here to do that, it's just to show how to us
 
 **Note:** We get an `ArithmeticException` when we try to divide by zero.
 
-## UNARY OPERATORS
+## Unary Operators
 - `+`, gives a value (or a variable) a positive value
 - `-`, gives a value (or a variable) a negative value
 - `++`, an addition operator that increases a variable value by 1. Can only be performed on variables, and there are two ways of using this operator, we will discuss them.
@@ -95,7 +95,7 @@ boolean bar = !foo;
 
 Now, the value of `foo` will remain true, as the operator doesn't change the value of the original variable (it's not an assignment, so it differs from the last two operators), and the variable `bar` will have the value `false`, because we have inverted it. This can obviously be used the other way around aswell (if we start with `false`)
 
-## BOOLEAN OPERATORS
+## Boolean Operators
 - `==`, compares a value when used on primitive types and a reference when used on reference types
 - `>=`, is greater than or equal
 - `<=`, is less than or equal
@@ -107,14 +107,15 @@ Now, the value of `foo` will remain true, as the operator doesn't change the val
 - `instanceof`, used for checking if an **object** is an instance of a particular class or it's subtype.
 - `? :`, the ternary operator, essentially an inline if statement.
 
-What is a boolean expression?
-It's a line of code that either returns `true` or `false`
+**What is a boolean expression?**
+
+It's a line of code that either returns `true` or `false`\
 For example:
 ```java
 boolean foo = 1 < 2;
 ```
 
-`1 < 2` is the boolean expression here.
+`1 < 2` is the boolean expression here.\
 The variable `foo` will now hold the value `true`
 
 or:
@@ -139,7 +140,7 @@ if (bar > foo) {
 }
 ```
 
-As for understanding the `instanceof` operator, you may have to go through the object oriented programming section.
+As for understanding the `instanceof` operator, you may have to go through the object-oriented programming section.\
 Here is an example tho:
 ```java
 Object object = new Boolean(Boolean.TRUE);
@@ -163,7 +164,7 @@ if (10 > 5) {
 }
 ```
 
-## BIT OPERATORS
+## Bit Operators
 - `>>`, unsigned right shift opeator, shifts a bit sequence to the right by a specified amount.
 - `<<`, unsigned left shift operator, shifts a bit sequence to the left by a specified amount.
 - `~`, bit invert operator, goes through a sequence of bits (for example a `byte`) and turns every bit to it's opposite value (`1` to `0` for example)

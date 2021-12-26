@@ -1,4 +1,4 @@
-# DATA TYPES
+# Data Types
 In the java language, there are two kinds of data types:
 
 1. Primitive data types
@@ -18,11 +18,12 @@ The reason why would you use data types such as `byte` over an `int` or `long` i
 
 **Reference data types include things such as interfaces, classes, arrays, and so on.**
 
-**Important notes:** Reference data types are objects, while primitive data types aren't.
-Primitive data types can not point to `null` reference while reference data types can.
-The value of reference data types defaults to `null`, however. In the case of primitives, their default value is assigned (the minimum value)
+**Important notes:**
+- Reference data types are objects, while primitive data types aren't.
+- Primitive data types can not point to `null` reference while reference data types can.
+- The value of reference data types defaults to `null`, however. In the case of primitives, their default value is assigned (the minimum value)
 
-Now we will discuss some of the reference types.
+Now we will discuss some reference types.
 
 - `String`, which is a class that is **immutable**, is essentially a type for a sequence of characters with a few useful methods. The string can be of any length that must be within the maximum value of an `int` data type
 - `Array`, arrays in java are objects that can be created of any type, regardless if it's a primitive or a reference type. An array is a linear data structure that holds elements. It can have a length that must be within the max value of the data type `int`. If a value below `0` is specified, a `NegativeArraySizeException` is thrown. We will also cover exceptions and all of the other things in the next tutorials. 

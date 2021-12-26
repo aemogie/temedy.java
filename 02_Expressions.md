@@ -1,6 +1,6 @@
-# EXPRESSIONS
-Expressions are a part of statements, which are a part of blocks.
-An expression is made up of values/operators and returns a single value.
+# Expressions
+Expressions are a part of statements, which are a part of blocks.\
+An expression is made up of values/operators and returns a single value.\
 Some of the simplest expressions include boolean expressions, number expressions, or, string expressions.
 
 As an example, we can take a boolean expression
@@ -22,10 +22,11 @@ while a string expression would look like
 
 Expressions alone are not useful and cannot be used on their own, but they are the components of statements, which involve functionality.
 
-# STATEMENTS
+# Statements
 A statement is a unit of execution, and must be ended with the `;` character.
 
 Variable declaration is a **statement**.
+
 A statement may or may not return a value. If it does, it's called an expression statement. Examples of expression statements are method calls that are of a different type than `void`.
 
 Let's take an example of a variable declaration
@@ -50,11 +51,11 @@ int foo;
 foo = 0;
 ```
 
-The first line of code is a declaration statement, while the other line of code is an expression statement.
+The first line of code is a declaration statement, while the other line of code is an expression statement.\
 The last type of statements are control flow statements which i'll cover later.
 
-# BLOCKS
-A block is a space which can contain statements, which contain expressions.
+# Blocks
+A block is a space which can contain statements, which contain expressions.\
 We can define a block by a pair of brackets (`{}`).
 ```java
 {
